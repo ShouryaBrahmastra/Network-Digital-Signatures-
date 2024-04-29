@@ -1,0 +1,218 @@
+digraph G {
+    graph [rankdir=LR, clusterrank="local"];
+    subgraph cluster_G {
+
+        graph [style="filled,rounded", fillcolor="#80808018", label=""];
+        dependency_diagram [label="dependency_diagram", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="0"];
+        pcap_analyser [label="pcap_analyser", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="1"];
+        pcapanalyser [label="pcapanalyser", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="2"];
+        pcapanalyser__captureanalyser [label="pcapanalyser.captureanalyser", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="3"];
+        pcapanalyser__graphXer [label="pcapanalyser.grapher", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="4"];
+        pcapanalyser__output [label="pcapanalyser.output", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="5"];
+        pcapanalyser__parsing [label="pcapanalyser.parsing", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="6"];
+        pcapanalyser__tests__style_compliance_checks [label="pcapanalyser.tests.style_compliance_checks", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="7"];
+        pcapanalyser__tests__test_against_samples [label="pcapanalyser.tests.test_against_samples", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="8"];
+        pcapanalyser__types [label="pcapanalyser.types", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="9"];
+        pcapanalyser__utils [label="pcapanalyser.utils", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="10"];
+        subgraph cluster_dependency_diagram {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="dependency_diagram"];
+            dependency_diagram__generate_dependency_graphX [label="generate_dependency_graph\n(C:\Users\owent\Desktop\cwnew\dependency_diagram.py:13)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pcap_analyser {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcap_analyser"];
+            pcap_analyser__main [label="main\n(C:\Users\owent\Desktop\cwnew\pcap_analyser.py:22)", style="filled", fillcolor="#fee5ccb2", fontcolor="#000000", group="1"];
+            pcap_analyser__parse_args [label="parse_args\n(C:\Users\owent\Desktop\cwnew\pcap_analyser.py:10)", style="filled", fillcolor="#fee5ccb2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pcapanalyser__captureanalyser {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.captureanalyser"];
+            pcapanalyser__captureanalyser__CaptureAnalyser [label="CaptureAnalyser\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:38)", style="filled", fillcolor="#ccff99b2", fontcolor="#000000", group="3"];
+            subgraph cluster_pcapanalyser__captureanalyser__CaptureAnalyser {
+
+                graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.captureanalyser.CaptureAnalyser"];
+                pcapanalyser__captureanalyser__CaptureAnalyser____init__ [label="__init__\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:41)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__avg_packet_length [label="avg_packet_length\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:123)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__conversations [label="conversations\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:110)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__create_kml [label="create_kml\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:160)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__draw_graphX [label="draw_graph\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:149)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__execute_all_commands [label="execute_all_commands\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:167)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__first_last_timestamps [label="first_last_timestamps\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:136)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__get_filenames_from_uris [label="get_filenames_from_uris\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:83)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__image_uris [label="image_uris\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:70)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__smtp_emails [label="smtp_emails\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:96)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+                pcapanalyser__captureanalyser__CaptureAnalyser__summarise [label="summarise\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\captureanalyser.py:47)", style="filled", fillcolor="#b2ff65b2", fontcolor="#000000", group="3"];
+            }
+        }
+        subgraph cluster_pcapanalyser__graphXer {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.grapher"];
+            pcapanalyser__graphXer__Grapher [label="Grapher\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:20)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="4"];
+            subgraph cluster_pcapanalyser__graphXer__Grapher {
+
+                graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.grapher.Grapher"];
+                pcapanalyser__graphXer__Grapher____init__ [label="__init__\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:23)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__calculate_suitable_interval [label="calculate_suitable_interval\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:66)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__calculate_threshold [label="calculate_threshold\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:34)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__change_interval [label="change_interval\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:96)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__generate_graphX_data [label="generate_graph_data\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:72)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__get_starting_ending_timestamp [label="get_starting_ending_timestamp\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:59)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__increment_interval [label="increment_interval\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:52)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+                pcapanalyser__graphXer__Grapher__plot [label="plot\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\grapher.py:105)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="4"];
+            }
+        }
+        subgraph cluster_pcapanalyser__output {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.output"];
+            pcapanalyser__output__generate_kml [label="generate_kml\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\output.py:16)", style="filled", fillcolor="#99ffccb2", fontcolor="#000000", group="5"];
+            pcapanalyser__output__write_command_output [label="write_command_output\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\output.py:54)", style="filled", fillcolor="#99ffccb2", fontcolor="#000000", group="5"];
+        }
+        subgraph cluster_pcapanalyser__parsing {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.parsing"];
+            pcapanalyser__parsing__get_avg_packet_length [label="get_avg_packet_length\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:99)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__get_conversations [label="get_conversations\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:210)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__get_filenames_from_uris [label="get_filenames_from_uris\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:133)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__get_first_last_timestamps [label="get_first_last_timestamps\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:62)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__get_image_uris [label="get_image_uris\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:143)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__get_smtp_emails [label="get_smtp_emails\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:173)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+            pcapanalyser__parsing__parse_packets [label="parse_packets\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\parsing.py:17)", style="filled", fillcolor="#99feffb2", fontcolor="#000000", group="6"];
+        }
+        subgraph cluster_pcapanalyser__tests__style_compliance_checks {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.tests.style_compliance_checks"];
+            pcapanalyser__tests__style_compliance_checks__CustomPylintReporter [label="CustomPylintReporter\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:23)", style="filled", fillcolor="#65b2ffb2", fontcolor="#000000", group="7"];
+            pcapanalyser__tests__style_compliance_checks__TestCodeCompliance [label="TestCodeCompliance\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:49)", style="filled", fillcolor="#65b2ffb2", fontcolor="#000000", group="7"];
+            pcapanalyser__tests__style_compliance_checks__get_all_py_files [label="get_all_py_files\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:12)", style="filled", fillcolor="#65b2ffb2", fontcolor="#000000", group="7"];
+            subgraph cluster_pcapanalyser__tests__style_compliance_checks__CustomPylintReporter {
+
+                graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.tests.style_compliance_checks.CustomPylintReporter"];
+                pcapanalyser__tests__style_compliance_checks__CustomPylintReporter____init__ [label="__init__\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:26)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__get_score [label="get_score\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:38)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__read [label="read\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:34)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__write [label="write\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:30)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+            }
+            subgraph cluster_pcapanalyser__tests__style_compliance_checks__TestCodeCompliance {
+
+                graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.tests.style_compliance_checks.TestCodeCompliance"];
+                pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_mypy_compliance [label="test_mypy_compliance\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:70)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pycodestyle_compliance [label="test_pycodestyle_compliance\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:56)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pydocstyle_compliance [label="test_pydocstyle_compliance\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:88)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+                pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pylint_compliance [label="test_pylint_compliance\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\style_compliance_checks.py:63)", style="filled", fillcolor="#3298ffb2", fontcolor="#000000", group="7"];
+            }
+        }
+        subgraph cluster_pcapanalyser__tests__test_against_samples {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.tests.test_against_samples"];
+            pcapanalyser__tests__test_against_samples__change_working_directory [label="change_working_directory\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\test_against_samples.py:15)", style="filled", fillcolor="#6565ffb2", fontcolor="#000000", group="8"];
+            pcapanalyser__tests__test_against_samples__get_files [label="get_files\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\test_against_samples.py:8)", style="filled", fillcolor="#6565ffb2", fontcolor="#000000", group="8"];
+            pcapanalyser__tests__test_against_samples__main [label="main\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\tests\test_against_samples.py:26)", style="filled", fillcolor="#6565ffb2", fontcolor="#000000", group="8"];
+        }
+        subgraph cluster_pcapanalyser__types {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.types"];
+            pcapanalyser__types__Emails [label="Emails\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\types.py:17)", style="filled", fillcolor="#cb99ffb2", fontcolor="#000000", group="9"];
+            pcapanalyser__types__Packets [label="Packets\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\types.py:10)", style="filled", fillcolor="#cb99ffb2", fontcolor="#000000", group="9"];
+        }
+        subgraph cluster_pcapanalyser__utils {
+
+            graph [style="filled,rounded", fillcolor="#80808018", label="pcapanalyser.utils"];
+            pcapanalyser__utils__create_logger [label="create_logger\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:18)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__get_src_dst_address [label="get_src_dst_address\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:39)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__hex_to_ipv4 [label="hex_to_ipv4\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:28)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__is_valid_pcap_file [label="is_valid_pcap_file\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:78)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__key_from_val [label="key_from_val\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:13)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__validate_file_format [label="validate_file_format\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:64)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+            pcapanalyser__utils__validate_filename [label="validate_filename\n(C:\Users\owent\Desktop\cwnew\pcapanalyser\utils.py:53)", style="filled", fillcolor="#ff99feb2", fontcolor="#000000", group="10"];
+        }
+    }
+        dependency_diagram -> dependency_diagram__generate_dependency_graphX [style="solid",  color="#000000"];
+        pcap_analyser -> pcap_analyser__parse_args [style="solid",  color="#000000"];
+        pcap_analyser -> pcapanalyser__captureanalyser__CaptureAnalyser [style="solid",  color="#000000"];
+        pcap_analyser -> pcapanalyser__utils__is_valid_pcap_file [style="solid",  color="#000000"];
+        pcap_analyser -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcap_analyser -> pcap_analyser__main [style="solid",  color="#000000"];
+        pcap_analyser__parse_args -> pcapanalyser__utils__is_valid_pcap_file [style="solid",  color="#000000"];
+        pcap_analyser__main -> pcapanalyser__captureanalyser__CaptureAnalyser____init__ [style="solid",  color="#000000"];
+        pcap_analyser__main -> pcapanalyser__captureanalyser__CaptureAnalyser [style="solid",  color="#000000"];
+        pcap_analyser__main -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__parsing [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__graphXer__Grapher [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser -> pcapanalyser__output__generate_kml [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser____init__ -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__summarise -> pcapanalyser__parsing__get_first_last_timestamps [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__summarise -> pcapanalyser__parsing__get_avg_packet_length [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__summarise -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__summarise -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__image_uris -> pcapanalyser__parsing__get_image_uris [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__image_uris -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__image_uris -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__get_filenames_from_uris -> pcapanalyser__parsing__get_filenames_from_uris [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__get_filenames_from_uris -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__get_filenames_from_uris -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__smtp_emails -> pcapanalyser__parsing__get_smtp_emails [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__smtp_emails -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__smtp_emails -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__conversations -> pcapanalyser__parsing__get_conversations [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__conversations -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__conversations -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__avg_packet_length -> pcapanalyser__parsing__get_avg_packet_length [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__avg_packet_length -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__avg_packet_length -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__avg_packet_length -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__first_last_timestamps -> pcapanalyser__parsing__get_first_last_timestamps [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__first_last_timestamps -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__first_last_timestamps -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__first_last_timestamps -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__draw_graphX -> pcapanalyser__graphXer__Grapher__plot [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__draw_graphX -> pcapanalyser__graphXer__Grapher [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__draw_graphX -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__draw_graphX -> pcapanalyser__graphXer__Grapher____init__ [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__create_kml -> pcapanalyser__parsing__parse_packets [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__create_kml -> pcapanalyser__output__write_command_output [style="solid",  color="#000000"];
+        pcapanalyser__captureanalyser__CaptureAnalyser__create_kml -> pcapanalyser__output__generate_kml [style="solid",  color="#000000"];
+        pcapanalyser__graphXer -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__graphXer -> pcapanalyser__types__Packets [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher____init__ -> pcapanalyser__graphXer__Grapher__calculate_suitable_interval [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__calculate_suitable_interval -> pcapanalyser__graphXer__Grapher__get_starting_ending_timestamp [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__generate_graphX_data -> pcapanalyser__graphXer__Grapher__increment_interval [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__generate_graphX_data -> pcapanalyser__graphXer__Grapher__get_starting_ending_timestamp [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__change_interval -> pcapanalyser__graphXer__Grapher__plot [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__plot -> pcapanalyser__graphXer__Grapher__calculate_threshold [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__plot -> pcapanalyser__graphXer__Grapher__generate_graphX_data [style="solid",  color="#000000"];
+        pcapanalyser__graphXer__Grapher__plot -> pcapanalyser__graphXer__Grapher__change_interval [style="solid",  color="#000000"];
+        pcapanalyser__output -> pcapanalyser__utils__hex_to_ipv4 [style="solid",  color="#000000"];
+        pcapanalyser__output -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__output -> pcapanalyser__types__Packets [style="solid",  color="#000000"];
+        pcapanalyser__output__generate_kml -> pcapanalyser__utils__hex_to_ipv4 [style="solid",  color="#000000"];
+        pcapanalyser__parsing -> pcapanalyser__utils__get_src_dst_address [style="solid",  color="#000000"];
+        pcapanalyser__parsing -> pcapanalyser__types__Emails [style="solid",  color="#000000"];
+        pcapanalyser__parsing -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__parsing -> pcapanalyser__types__Packets [style="solid",  color="#000000"];
+        pcapanalyser__parsing -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__parsing__get_first_last_timestamps -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__parsing__get_avg_packet_length -> pcapanalyser__utils__key_from_val [style="solid",  color="#000000"];
+        pcapanalyser__parsing__get_filenames_from_uris -> pcapanalyser__parsing__get_image_uris [style="solid",  color="#000000"];
+        pcapanalyser__parsing__get_conversations -> pcapanalyser__captureanalyser__CaptureAnalyser__conversations [style="solid",  color="#000000"];
+        pcapanalyser__parsing__get_conversations -> pcapanalyser__utils__get_src_dst_address [style="solid",  color="#000000"];
+        pcapanalyser__utils -> pcapanalyser__utils__create_logger [style="solid",  color="#000000"];
+        pcapanalyser__utils__get_src_dst_address -> pcapanalyser__utils__hex_to_ipv4 [style="solid",  color="#000000"];
+        pcapanalyser__utils__is_valid_pcap_file -> pcapanalyser__utils__validate_file_format [style="solid",  color="#000000"];
+        pcapanalyser__utils__is_valid_pcap_file -> pcapanalyser__utils__validate_filename [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__write -> pcapanalyser__tests__style_compliance_checks__CustomPylintReporter____init__ [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__get_score -> pcapanalyser__tests__style_compliance_checks__CustomPylintReporter____init__ [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance -> pcapanalyser__tests__style_compliance_checks__get_all_py_files [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pycodestyle_compliance -> pcapanalyser__tests__style_compliance_checks__get_all_py_files [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pylint_compliance -> pcapanalyser__tests__style_compliance_checks__CustomPylintReporter__get_score [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pylint_compliance -> pcapanalyser__tests__style_compliance_checks__get_all_py_files [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pylint_compliance -> pcapanalyser__tests__style_compliance_checks__CustomPylintReporter [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pylint_compliance -> pcapanalyser__tests__style_compliance_checks__CustomPylintReporter____init__ [style="solid",  color="#000000"];
+        pcapanalyser__tests__style_compliance_checks__TestCodeCompliance__test_pydocstyle_compliance -> pcapanalyser__tests__style_compliance_checks__get_all_py_files [style="solid",  color="#000000"];
+        pcapanalyser__tests__test_against_samples -> pcapanalyser__tests__test_against_samples__main [style="solid",  color="#000000"];
+        pcapanalyser__tests__test_against_samples__main -> pcapanalyser__tests__test_against_samples__get_files [style="solid",  color="#000000"];
+        pcapanalyser__tests__test_against_samples__main -> pcapanalyser__tests__test_against_samples__change_working_directory [style="solid",  color="#000000"];
+    }

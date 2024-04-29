@@ -1,0 +1,497 @@
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   ARP    |        622        |   15:01:05.275  |  15:01:34.244  |        60.0       |
++----------+-------------------+-----------------+----------------+-------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-----------+-----------+--------------+
+|   Sender  | Recipient | Packets Sent |
++-----------+-----------+--------------+
+| Unable to | Calculate |      0       |
++-----------+-----------+--------------+
++----------+------------+
+| Protocol | Avg Length |
++----------+------------+
+|   ARP    |    60.0    |
++----------+------------+
++----------+-----------------+----------------+
+| Protocol | First Timestamp | Last Timestamp |
++----------+-----------------+----------------+
+|   ARP    |   15:01:05.275  |  15:01:34.244  |
++----------+-----------------+----------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   ARP    |        622        |   15:01:05.275  |  15:01:34.244  |        60.0       |
++----------+-------------------+-----------------+----------------+-------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-----------+-----------+--------------+
+|   Sender  | Recipient | Packets Sent |
++-----------+-----------+--------------+
+| Unable to | Calculate |      0       |
++-----------+-----------+--------------+
++----------+------------+
+| Protocol | Avg Length |
++----------+------------+
+|   ARP    |    60.0    |
++----------+------------+
++----------+-----------------+----------------+
+| Protocol | First Timestamp | Last Timestamp |
++----------+-----------------+----------------+
+|   ARP    |   15:01:05.275  |  15:01:34.244  |
++----------+-----------------+----------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+| Unknown Protocol |         1         | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-----------+-----------+--------------+
+|   Sender  | Recipient | Packets Sent |
++-----------+-----------+--------------+
+| Unable to | Calculate |      0       |
++-----------+-----------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   UDP    |         4         |   19:16:24.317  |  19:16:24.387  |       328.0       |
++----------+-------------------+-----------------+----------------+-------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-------------+-----------------+--------------+
+|    Sender   |    Recipient    | Packets Sent |
++-------------+-----------------+--------------+
+|   0.0.0.0   | 255.255.255.255 |      2       |
+| 192.168.0.1 |   192.168.0.10  |      2       |
++-------------+-----------------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
+|       UDP        |        328.0        |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
+|       UDP        |     19:16:24.317    |     19:16:24.387    |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+| Unknown Protocol |         3         | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-----------+-----------+--------------+
+|   Sender  | Recipient | Packets Sent |
++-----------+-----------+--------------+
+| Unable to | Calculate |      0       |
++-----------+-----------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
+|       UDP        | Unable to calculate |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
+|       UDP        | Unable to Calculate | Unable to Calculate |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+|       IPX        |         37        |     17:23:52.276    |     17:25:15.788    |         74.0        |
+| Unknown Protocol |         37        | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++-----------+-----------+--------------+
+|   Sender  | Recipient | Packets Sent |
++-----------+-----------+--------------+
+| Unable to | Calculate |      0       |
++-----------+-----------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
+|       UDP        | Unable to calculate |
+|       IPX        |         74.0        |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
+|       UDP        | Unable to Calculate | Unable to Calculate |
+|       IPX        |     17:23:52.276    |     17:25:15.788    |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   TCP    |        284        |   15:17:28.467  |  15:19:29.445  |       770.94      |
++----------+-------------------+-----------------+----------------+-------------------+
++-----------------------------------------------+
+|                      URI                      |
++-----------------------------------------------+
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /images.foxnews.com/content/fox-news/tech/201 |
+|           /static/all/img/clear.gif           |
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /images.foxnews.com/content/fox-news/tech/sli |
+| /images.foxnews.com/content/fox-news/tech/201 |
+| /images.foxnews.com/content/fox-news/science/ |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/2016/11/03/144/81/110316_ |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /media2.foxnews.com/BrightCove/694940094001/2 |
+| /images.foxnews.com/content/fox-news/tech/201 |
+|                /1171139_180.jpg               |
+|                /1278884_180.jpg               |
+|                /1215547_180.jpg               |
+|                /1278224_180.jpg               |
+|                /934766_180.jpg                |
+|                /1279329_180.jpg               |
+|                /1149981_180.jpg               |
+|                /1279354_180.jpg               |
+|                /1142869_180.jpg               |
+|                /1278902_180.jpg               |
+|                 /a/anon/50.jpg                |
+| /frameworks/barlesque/3.20.5/orb/4/img/bbc-bl |
+| /news/1.160.0984/img/correspondents/circles/s |
+| /live-experience/cps/800/cpsprodpb/9E6B/produ |
+|  /news/1.160.0984/img/news--icons-sprite.png  |
+| /news/1.160.0984/img/faux-block-link-transpar |
+| /live-experience/cps/240/cpsprodpb/A799/produ |
+| /live-experience/cps/240/cpsprodpb/11893/prod |
+| /live-experience/cps/240/cpsprodpb/BBA3/produ |
+| /live-experience/cps/240/cpsprodpb/531B/produ |
+| /live-experience/cps/240/cpsprodpb/B24F/produ |
+| /s/notification-ui/2.6.3-mvt//svg/close_icon. |
+| /s/notification-ui/2.6.3-mvt//svg/close_icon_ |
+|   /news/1.160.0984/img/locator_sprite_1x.png  |
+| /news/165/cpsprodpb/15441/production/_9225017 |
+| /news/96/cpsprodpb/C0A5/production/_92271394_ |
+| /news/96/cpsprodpb/14D57/production/_92253358 |
+| /news/96/cpsprodpb/4C26/production/_92249491_ |
+| /news/165/cpsprodpb/3996/production/_92224741 |
+| /news/165/cpsprodpb/16E2E/production/_9222473 |
+| /news/96/cpsprodpb/52F3/production/_92253212_ |
+| /news/165/cpsprodpb/BA9D/production/_92237774 |
+| /news/96/cpsprodpb/15A8B/production/_92251788 |
+| /news/96/cpsprodpb/14482/production/_92247038 |
+| /news/304/cpsprodpb/C0A5/production/_92271394 |
+|        /images/ic/272x153/p04bkxct.jpg        |
+|        /images/ic/272x153/p04dghp4.jpg        |
+|        /images/ic/272x153/p04dgby5.jpg        |
+|        /images/ic/272x153/p04dghfw.jpg        |
+| /navpromo/1.2.1/img/media-icons/icon2-video.s |
+| /navpromo/1.2.1/img/media-icons/icon2-gallery |
+|          /images/ic/raw/p04f23kl.png          |
+| /news/1.160.0984/icons/generated/icons.data.s |
+| /news/1.160.0984/icons/generated/icons.data.s |
+| /news/320/cpsprodpb/9E6B/production/_92255504 |
+| /o.gif?~RS~s~RS~News~RS~t~RS~HighWeb_Story~RS |
+|   /news/1.160.0984/img/sprite-sharetools.png  |
+| /news/660/cpsprodpb/9E6B/production/_92255504 |
+| /news/270/cpsprodpb/12ED/production/_92254840 |
+| /news/270/cpsprodpb/507C/production/_92240602 |
+| /news/270/cpsprodpb/10E07/production/_9227219 |
+| /news/270/cpsprodpb/4CD0/production/_92246691 |
+|        /images/ic/608x342/p04f5cq5.jpg        |
+| /news/270/cpsprodpb/136A7/production/_9227259 |
+| /news/270/cpsprodpb/1453F/production/_9223623 |
+| /news/270/cpsprodpb/EF44/production/_92225216 |
+| /news/270/cpsprodpb/14804/production/_9222793 |
+| /news/270/cpsprodpb/7430/production/_92244792 |
+| /news/624/cpsprodpb/A799/production/_92250924 |
++-----------------------------------------------+
++--------------------------+
+|         Filename         |
++--------------------------+
+|           201            |
+|           201            |
+|           201            |
+|           201            |
+|            2             |
+|           201            |
+|        clear.gif         |
+|           201            |
+|           sli            |
+|           201            |
+|                          |
+|            2             |
+|            2             |
+|            2             |
+|            2             |
+|         110316_          |
+|            2             |
+|            2             |
+|            2             |
+|           201            |
+|     1171139_180.jpg      |
+|     1278884_180.jpg      |
+|     1215547_180.jpg      |
+|     1278224_180.jpg      |
+|      934766_180.jpg      |
+|     1279329_180.jpg      |
+|     1149981_180.jpg      |
+|     1279354_180.jpg      |
+|     1142869_180.jpg      |
+|     1278902_180.jpg      |
+|          50.jpg          |
+|          bbc-bl          |
+|            s             |
+|          produ           |
+|  news--icons-sprite.png  |
+| faux-block-link-transpar |
+|          produ           |
+|           prod           |
+|          produ           |
+|          produ           |
+|          produ           |
+|       close_icon.        |
+|       close_icon_        |
+|  locator_sprite_1x.png   |
+|         _9225017         |
+|        _92271394_        |
+|        _92253358         |
+|        _92249491_        |
+|        _92224741         |
+|         _9222473         |
+|        _92253212_        |
+|        _92237774         |
+|        _92251788         |
+|        _92247038         |
+|        _92271394         |
+|       p04bkxct.jpg       |
+|       p04dghp4.jpg       |
+|       p04dgby5.jpg       |
+|       p04dghfw.jpg       |
+|      icon2-video.s       |
+|      icon2-gallery       |
+|       p04f23kl.png       |
+|       icons.data.s       |
+|       icons.data.s       |
+|        _92255504         |
+|          o.gif           |
+|  sprite-sharetools.png   |
+|        _92255504         |
+|        _92254840         |
+|        _92240602         |
+|         _9227219         |
+|        _92246691         |
+|       p04f5cq5.jpg       |
+|         _9227259         |
+|         _9223623         |
+|        _92225216         |
+|         _9222793         |
+|        _92244792         |
+|        _92250924         |
++--------------------------+
+No emails detected
++----------------+----------------+--------------+
+|     Sender     |   Recipient    | Packets Sent |
++----------------+----------------+--------------+
+| 146.176.164.91 | 23.209.210.242 |      85      |
+| 146.176.164.91 |  23.209.213.8  |      59      |
+| 146.176.164.91 | 212.58.244.68  |      13      |
+| 146.176.164.91 | 184.28.149.24  |      10      |
+| 146.176.164.91 | 54.192.197.117 |      10      |
+| 146.176.164.91 |  216.58.201.2  |      9       |
+| 146.176.164.91 | 72.247.177.201 |      8       |
+| 146.176.164.91 | 77.72.112.213  |      7       |
+| 146.176.164.91 |  2.22.228.18   |      6       |
+| 146.176.164.91 |  52.85.184.90  |      6       |
+| 146.176.164.91 |  66.117.29.34  |      5       |
+| 146.176.164.91 |  54.204.6.142  |      4       |
+| 146.176.164.91 | 216.58.212.98  |      3       |
+| 146.176.164.91 | 54.225.184.146 |      3       |
+|  54.69.185.4   | 146.176.164.91 |      3       |
+| 146.176.164.91 |  23.21.54.131  |      2       |
+| 146.176.164.91 | 54.194.240.68  |      2       |
+| 146.176.164.91 | 66.235.156.196 |      2       |
+| 146.176.164.91 | 54.230.197.110 |      2       |
+| 146.176.164.91 | 54.192.197.149 |      2       |
+| 146.176.164.91 | 138.108.96.100 |      2       |
+| 146.176.164.91 | 185.57.60.185  |      2       |
+| 146.176.164.91 |  64.202.112.4  |      2       |
+| 146.176.164.91 | 64.202.112.26  |      2       |
+| 146.176.164.91 | 72.247.177.210 |      2       |
+| 146.176.164.91 | 204.2.197.201  |      2       |
+| 146.176.164.91 |  52.85.58.139  |      2       |
+| 212.58.244.68  | 146.176.164.91 |      2       |
+| 146.176.164.91 |  46.236.9.36   |      2       |
+| 54.194.240.68  | 146.176.164.91 |      1       |
+| 146.176.164.91 | 23.209.200.231 |      1       |
+| 146.176.164.91 |  64.74.232.56  |      1       |
+| 146.176.164.91 | 216.58.204.70  |      1       |
+| 146.176.164.91 | 50.17.248.221  |      1       |
+| 146.176.164.91 |  151.101.17.7  |      1       |
+| 146.176.164.91 |  50.17.186.25  |      1       |
+| 146.176.164.91 | 104.16.27.235  |      1       |
+| 204.2.197.201  | 146.176.164.91 |      1       |
+| 146.176.164.91 | 151.101.16.233 |      1       |
+| 146.176.164.91 | 162.247.242.20 |      1       |
+| 151.101.16.233 | 146.176.164.91 |      1       |
+| 146.176.164.91 |   52.1.64.28   |      1       |
+| 146.176.164.91 | 54.210.45.182  |      1       |
+|   52.1.64.28   | 146.176.164.91 |      1       |
+| 54.210.45.182  | 146.176.164.91 |      1       |
+| 146.176.164.91 | 54.192.197.103 |      1       |
+| 146.176.164.91 |  54.86.76.22   |      1       |
+| 146.176.164.91 | 54.163.85.105  |      1       |
+|  54.86.76.22   | 146.176.164.91 |      1       |
+| 54.163.85.105  | 146.176.164.91 |      1       |
+| 146.176.164.91 |   2.18.7.162   |      1       |
+| 77.72.112.213  | 146.176.164.91 |      1       |
+| 146.176.164.91 | 212.58.244.39  |      1       |
+| 146.176.164.91 | 212.58.246.109 |      1       |
++----------------+----------------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
+|       UDP        | Unable to calculate |
+|       IPX        | Unable to calculate |
+|       TCP        |        770.94       |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
+|       UDP        | Unable to Calculate | Unable to Calculate |
+|       IPX        | Unable to Calculate | Unable to Calculate |
+|       TCP        |     15:17:28.467    |     15:19:29.445    |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   TCP    |         52        |   15:17:28.556  |  15:19:58.504  |       506.7       |
++----------+-------------------+-----------------+----------------+-------------------+
+No image URIs detected
+No filenames detected
+No emails detected
++----------------+----------------+--------------+
+|     Sender     |   Recipient    | Packets Sent |
++----------------+----------------+--------------+
+|  216.58.201.2  | 146.176.164.91 |      8       |
+| 77.72.112.213  | 146.176.164.91 |      6       |
+|  54.204.6.142  | 146.176.164.91 |      4       |
+| 104.45.88.169  | 146.176.164.91 |      4       |
+|  66.117.29.34  | 146.176.164.91 |      3       |
+| 216.58.212.98  | 146.176.164.91 |      3       |
+| 54.225.184.146 | 146.176.164.91 |      3       |
+| 173.192.220.64 | 146.176.164.91 |      3       |
+|  37.220.30.10  | 146.176.164.91 |      3       |
+|  23.21.54.131  | 146.176.164.91 |      2       |
+| 138.108.96.100 | 146.176.164.91 |      2       |
+|   54.72.1.54   | 146.176.164.91 |      2       |
+| 185.29.133.208 | 146.176.164.91 |      1       |
+|  52.30.91.181  | 146.176.164.91 |      1       |
+| 23.209.210.242 | 146.176.164.91 |      1       |
+| 212.58.244.39  | 146.176.164.91 |      1       |
+|  37.220.30.11  | 146.176.164.91 |      1       |
+| 185.33.220.27  | 146.176.164.91 |      1       |
+| 54.183.144.42  | 146.176.164.91 |      1       |
++----------------+----------------+--------------+
++------------------+---------------------+
+|     Protocol     |      Avg Length     |
++------------------+---------------------+
+|       ARP        | Unable to calculate |
+| Unknown Protocol | Unable to calculate |
+|       UDP        | Unable to calculate |
+|       IPX        | Unable to calculate |
+|       TCP        |        506.7        |
++------------------+---------------------+
++------------------+---------------------+---------------------+
+|     Protocol     |   First Timestamp   |    Last Timestamp   |
++------------------+---------------------+---------------------+
+|       ARP        | Unable to Calculate | Unable to Calculate |
+| Unknown Protocol | Unable to Calculate | Unable to Calculate |
+|       UDP        | Unable to Calculate | Unable to Calculate |
+|       IPX        | Unable to Calculate | Unable to Calculate |
+|       TCP        |     15:17:28.556    |     15:19:58.504    |
++------------------+---------------------+---------------------+
+KML file saved to pcapanalyser/outputs/ip_activity.kml
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   ARP    |        622        |   15:01:05.275  |  15:01:34.244  |        60.0       |
++----------+-------------------+-----------------+----------------+-------------------+
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+| Unknown Protocol |         1         | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   UDP    |         4         |   19:16:24.317  |  19:16:24.387  |       328.0       |
++----------+-------------------+-----------------+----------------+-------------------+
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+| Unknown Protocol |         3         | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
++------------------+-------------------+---------------------+---------------------+---------------------+
+|     Protocol     | Number of Packets |   First timestamp   |    Last timestamp   |  Avg packet length  |
++------------------+-------------------+---------------------+---------------------+---------------------+
+|       IPX        |         37        |     17:23:52.276    |     17:25:15.788    |         74.0        |
+| Unknown Protocol |         37        | Unable to Calculate | Unable to Calculate | Unable to calculate |
++------------------+-------------------+---------------------+---------------------+---------------------+
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   TCP    |        284        |   15:17:28.467  |  15:19:29.445  |       770.94      |
++----------+-------------------+-----------------+----------------+-------------------+
++----------+-------------------+-----------------+----------------+-------------------+
+| Protocol | Number of Packets | First timestamp | Last timestamp | Avg packet length |
++----------+-------------------+-----------------+----------------+-------------------+
+|   TCP    |         52        |   15:17:28.556  |  15:19:58.504  |       506.7       |
++----------+-------------------+-----------------+----------------+-------------------+
