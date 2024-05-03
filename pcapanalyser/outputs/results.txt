@@ -904,3 +904,10 @@ INFO - 29-Apr-24 10:50:52 - Writing results to pcapanalyser/outputs/results.txt
 |   IGMP   |         3         |   01:44:50.283  |  01:44:55.328  |        60.0       |
 +----------+-------------------+-----------------+----------------+-------------------+
 INFO - 29-Apr-24 10:59:02 - Successfully read PCAP file - TS = 1714369468.004228
+INFO - 03-May-24 09:08:06 - Successfully read PCAP file - TS = 1714369468.004228
+INFO - 03-May-24 09:08:06 - Program Started
+INFO - 03-May-24 09:08:06 - Parsing file: /home/neog01/boys/Network-Digital-Signatures-/pcapanalyser/samples/youtube.pcap
+INFO - 03-May-24 09:08:06 - Finished parsing. Found 6100 packets
+INFO - 03-May-24 09:08:06 - Beginning Analysis for /home/neog01/boys/Network-Digital-Signatures-/pcapanalyser/samples/youtube.pcap
+INFO - 03-May-24 09:08:06 - 'draw_graph' command executed
+INFO - 03-May-24 09:08:06 - Generating graph data and plotting
