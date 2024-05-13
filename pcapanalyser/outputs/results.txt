@@ -904,3 +904,18 @@ INFO - 29-Apr-24 10:50:52 - Writing results to pcapanalyser/outputs/results.txt
 |   IGMP   |         3         |   01:44:50.283  |  01:44:55.328  |        60.0       |
 +----------+-------------------+-----------------+----------------+-------------------+
 INFO - 29-Apr-24 10:59:02 - Successfully read PCAP file - TS = 1714369468.004228
+ERROR - 11-May-24 10:30:02 - /home/kali/Desktop/final does not exist
+INFO - 11-May-24 10:30:48 - Successfully read PCAP file - TS = 1715437692.684167
+INFO - 11-May-24 10:30:48 - Program Started
+INFO - 11-May-24 10:30:48 - Parsing file: /home/kali/Desktop/final_year_project/Network-Digital-Signatures-/pcapanalyser/samples/amazon.pcap
+INFO - 11-May-24 10:30:48 - Finished parsing. Found 4153 packets
+INFO - 11-May-24 10:30:48 - Beginning Analysis for /home/kali/Desktop/final_year_project/Network-Digital-Signatures-/pcapanalyser/samples/amazon.pcap
+INFO - 11-May-24 10:30:48 - 'draw_graph' command executed
+INFO - 11-May-24 10:30:48 - Generating graph data and plotting
+INFO - 11-May-24 10:37:00 - Successfully read PCAP file - TS = 1715438156.835024
+INFO - 11-May-24 10:37:00 - Program Started
+INFO - 11-May-24 10:37:00 - Parsing file: /home/kali/Desktop/final_year_project/Network-Digital-Signatures-/pcapanalyser/samples/match.pcap
+INFO - 11-May-24 10:37:00 - Finished parsing. Found 778 packets
+INFO - 11-May-24 10:37:00 - Beginning Analysis for /home/kali/Desktop/final_year_project/Network-Digital-Signatures-/pcapanalyser/samples/match.pcap
+INFO - 11-May-24 10:37:00 - 'draw_graph' command executed
+INFO - 11-May-24 10:37:00 - Generating graph data and plotting
