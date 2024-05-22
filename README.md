@@ -38,19 +38,19 @@ Commands:
 <table align="center">
   <tbody><tr>
     
- <td align="center"><img alt="Swarnadeep" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/swarna.png" width="130px;"><br><sub><b>
+ <td align="center"><img alt="Swarnadeep" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/s_git.png" width="130px;"><br><sub><b>
  Swarnadeep Karmakar </b></sub><br>
 <a href="https://www.linkedin.com/in/swarnadeep-karmakar/" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/link.png" alt="Linkedin" height="20" width="20" /></a>&nbsp&nbsp<a href="https://github.com/Swarnadeep-Karmakar" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/github%20coloured.png" alt="Github" height="20" width="20" /></a><nbsp></td></a></td>
 
- <td align="center"><img alt="" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/me.png" width="130px;"><br><sub><b>
+ <td align="center"><img alt="" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/Shourya.png" width="130px;"><br><sub><b>
  Shourya Gupta </b></sub><br>
 <a href="https://www.linkedin.com/in/shourya-gupta-12911721b/" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/link.png" alt="Linkedin" height="20" width="20" /></a>&nbsp&nbsp<a href="https://github.com/ShouryaBrahmastra" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/github%20coloured.png" alt="Github" height="20" width="20" /></a><nbsp></td></a></td>
 
- <td align="center"><img alt="Pratham" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/pratham.png" width="130px;"><br><sub><b>
+ <td align="center"><img alt="Pratham" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/p_git.png" width="130px;"><br><sub><b>
  Pratham Choudhary </b></sub><br>
 <a href="https://www.linkedin.com/in/pratham-choudhary-5b6b431b2/" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/link.png" alt="Linkedin" height="20" width="20" /></a>&nbsp&nbsp<a href="https://github.com/choudhary-pratham" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/github%20coloured.png" alt="Github" height="20" width="20" /></a><nbsp></td></a></td>
 
-<td align="center"><img alt="ARS" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/ars.png" width="130px;"><br><sub><b>
+<td align="center"><img alt="ARS" src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/ars_git.png" width="130px;"><br><sub><b>
  Aditya Raj Saha</b></sub><br>
 <a href="https://www.linkedin.com/in/aditya-raj-saha-831977212/" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/link.png" alt="Linkedin" height="20" width="20" /></a>&nbsp&nbsp<a href="https://github.com/AdityaRajSaha" target="_blank"><img align="center"  src="https://raw.githubusercontent.com/ShouryaBrahmastra/ShouryaBrahmastra/master/assets/github%20coloured.png" alt="Github" height="20" width="20" /></a><nbsp></td></a></td>
 </tr>
