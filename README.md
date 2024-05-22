@@ -33,3 +33,4 @@ Commands:
 - See requirements.txt
 - ```pip install -r requirements.txt```
 
+## Contributors 
