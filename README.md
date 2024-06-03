@@ -3,6 +3,16 @@
 ### Cmd tool for generating digital signature using the pcap analyser 
 
 ---
+## Download the tools
+
+- For windows user
+  
+
+- For linux users
+  ```
+  git clone https://github.com/ShouryaBrahmastra/Network-Digital-Signatures-.git
+  ```
+
 
 > ```python pcap_analyser.py /home/kali/boys/digitalsign/pcapanalyser/samples/ summarise```
 > 
