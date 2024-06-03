@@ -6,7 +6,7 @@
 ## Download the tools
 
 - For windows user
-  
+  [Click here](https://drive.google.com/file/d/1b1VZTr3uAy8lnO_xMwnmpMlgoQupqtIb/view?usp=drive_link)
 
 - For linux users
   ```
