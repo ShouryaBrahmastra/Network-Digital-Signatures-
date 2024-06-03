@@ -1,6 +1,6 @@
 '''
 /***
-** Script:   captureanalyser.py
+** Script:   utils.py
 ** Desc:     Definition for CaptureAnalyser object.
 *
 *               Contains logic for execution of program commands, and formats
